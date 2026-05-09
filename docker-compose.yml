@@ -1,6 +1,5 @@
 networks:
   zabbix-network:
-    external: true
 
 volumes:
   zabbix-postgres:
