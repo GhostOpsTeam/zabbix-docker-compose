@@ -67,7 +67,7 @@ services:
       - zabbix-network
     ports:
       - "8000:8080"
-      - "8443:8443"
+      - "9443:8443"
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8080/"]
       interval: 10s
