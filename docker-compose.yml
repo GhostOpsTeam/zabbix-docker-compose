@@ -4,7 +4,7 @@ services:
     env_file:
       - .env
     volumes:
-      - zabbix-postgres:/var/lib/postgresql
+      - zabbix-postgres_v18:/var/lib/postgresql
     environment:
       POSTGRES_DB: ${ZABBIX_DB_NAME}
       POSTGRES_USER: ${ZABBIX_DB_USER}
