@@ -44,7 +44,7 @@ services:
   zabbix-dashboard:
     image: ${ZABBIX_WEB_IMAGE_TAG}
     env_file:
-      - stack.env
+      - .env
     environment:
       DB_SERVER_HOST: postgres
       DB_SERVER_PORT: 5432
